@@ -1,0 +1,4 @@
+config SHIELD_68KEYS_LEFT
+    def_bool $(shields_list_contains,68keys_left)
+config SHIELD_68KEYS_RIGHT
+    def_bool $(shields_list_contains,68keys_right)

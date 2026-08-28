@@ -1,0 +1,14 @@
+
+if SHIELD_68KEYS_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "68keys"
+
+endif
+
+if SHIELD_68KEYS_LEFT || SHIELD_68KEYS_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

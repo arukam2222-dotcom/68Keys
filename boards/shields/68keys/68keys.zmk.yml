@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: 68keys
+name: 68keys
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - 68keys_left
+  - 68keys_right
