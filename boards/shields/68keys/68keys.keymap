@@ -3,3 +3,9 @@
 #include <dt-bindings/zmk/keys.h>
 
 #include "../../../config/keymap.keymap"
+
+#include <input/processors.dtsi>
+
+&sl {
+    release-after-ms = <200>;
+};
