@@ -85,6 +85,23 @@
         };
     };
 
+    macros {
+        MouseRightMacro: MouseRightMacro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&mkp RCLK>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mkp RCLK>,
+                <&macro_tap>,
+                <&tog_off 2 &sl 2>;
+
+            label = "MOUSERIGHTMACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
