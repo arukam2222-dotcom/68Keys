@@ -83,10 +83,8 @@
 
             label = "MOUSELEFTMACRO";
         };
-    };
 
-    macros {
-        MouseRightMacro: MouseRightMacro {
+         MouseRightMacro: MouseRightMacro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
