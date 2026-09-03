@@ -55,7 +55,7 @@
         input-processors = <
             &zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
 			&zip_xy_scaler 1 2
-            &zip_temp_layer 2 1200
+            &zip_temp_layer 2 500
         >;
     };
 };
@@ -132,10 +132,11 @@
 
 };
 
+//37、38のキーは例外。キー入力から200msはAMLを発動しない。
 &zip_temp_layer {
     excluded-positions = <
         37 // J
         38 // K
     >;
+	require-prior-idle-ms = <200>;
 };
-
