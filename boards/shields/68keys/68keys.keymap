@@ -7,5 +7,5 @@
 #include <input/processors.dtsi>
 
 &sl {
-    release-after-ms = <200>;
+    release-after-ms = <20000>;
 };
