@@ -9,37 +9,17 @@
 
         LeftMiddleClick {
             bindings = <&mkp MCLK>;
-            key-positions = <37 38>;
+            key-positions = <38 37>;
         };
 
-        arrowU {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <39 38>;
+        JP {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <49 50>;
         };
 
-        arrowD {
-            bindings = <&kp DOWN_ARROW>;
-            key-positions = <53 52>;
-        };
-
-        MouseScrollLeft {
-            bindings = <&msc SCRL_LEFT>;
-            key-positions = <36 37 38>;
-        };
-
-        MouseScrollRight {
-            bindings = <&msc SCRL_RIGHT>;
-            key-positions = <38 39 40>;
-        };
-
-        arrowL {
-            bindings = <&kp LEFT_ARROW>;
-            key-positions = <52 51>;
-        };
-
-        arrowR {
-            bindings = <&kp RIGHT_ARROW>;
-            key-positions = <54 53>;
+        EN {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <48 47>;
         };
 
         MouseScrollUPLeft {
