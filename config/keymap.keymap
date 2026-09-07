@@ -115,11 +115,11 @@
 
         layer_3 {
             bindings = <
-&none           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none  &none  &none      &none                     &none           &kp KP_SLASH    &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
-&none           &none         &none         &none         &none  &none  &none  &none      &none                     &none           &kp KP_N7       &kp KP_N8        &kp KP_N9        &kp KP_PLUS
-&none           &none         &none         &none         &none  &none  &none  &none      &none                     &none           &kp UP_ARROW    &kp KP_N5        &kp KP_N6        &kp KP_PLUS
-&kp LEFT_SHIFT  &none         &none         &none         &none  &none  &none  &none      &none                     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp KP_NUMBER_3  &kp KP_ENTER
-&kp LCTRL       &none         &none         &none         &none  &none  &none  &kp ENTER  &mt LEFT_SHIFT BACKSPACE                                  &kp KP_N0        &none            &kp KP_ENTER
+&none           &none  &none  &none  &none  &none  &none  &none      &none                     &none           &kp KP_SLASH    &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_MINUS
+&none           &none  &none  &none  &none  &none  &none  &none      &none                     &none           &kp KP_N7       &kp KP_N8        &kp KP_N9        &kp KP_PLUS
+&none           &none  &none  &none  &none  &none  &none  &none      &none                     &none           &kp UP_ARROW    &kp KP_N5        &kp KP_N6        &kp KP_PLUS
+&kp LEFT_SHIFT  &none  &none  &none  &none  &none  &none  &none      &none                     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp KP_NUMBER_3  &kp KP_ENTER
+&kp LCTRL       &none  &none  &none  &none  &none  &none  &kp ENTER  &mt LEFT_SHIFT BACKSPACE                                  &kp KP_N0        &none            &kp KP_ENTER
             >;
         };
 
