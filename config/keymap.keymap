@@ -14,12 +14,12 @@
 
         JP {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <49 50>;
+            key-positions = <52 51>;
         };
 
         EN {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <48 47>;
+            key-positions = <45 46>;
         };
 
         LayerCombo {
